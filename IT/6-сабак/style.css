@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(144, 126, 226);
+    margin: 0;
+}
+.header{
+    width: auto;
+    height: 100px;
+    background-color: rgb(157, 177, 120);
+}
+.content-one{
+    width: auto;
+    height:auto;
+    background-color: rgb(255, 0, 140);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.block{
+    width: 250px;
+    height: 250px;
+    border: 2px solid;
+    margin: 100px 50px 100px 50px;
+    border-radius: 50%;
+
+}
+.one {
+background-color: coral;
+}
+.two{
+    background-color: chartreuse;
+}
+.three{
+    background-color: cornflowerblue;
+}
+.fourse{
+ background-color: blueviolet;
+}

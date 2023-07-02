@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+   
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwL-hET527w2FKsJECPD5FU18l7CIvNUqjzw&usqp=CAU);
+    /* background-position: center;
+    background-size: cover; */ 
+    /* background-image: linear-gradient(to right, red,orange,yellow,green,rgb(0, 255, 179),indigo,violet); */
+    background-image: url(https://cdn.pixabay.com/animation/2023/03/12/20/12/20-12-59-476_512.gif);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.muz{ 
+    width: 425px;
+    height: 285px;
+    border: 8px solid blueviolet;
+    background-image: url(https://bestgif.su/_ph/38/2/177091839.gif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    transition: 3s;
+    transform: rotate(360dec);
+    box-shadow: 0px 0px 15px 15px rgb(6, 6, 160);
+}
+.muz:hover{
+    width: 500px;
+    height: 600px;
+    box-shadow: 0px 0px 15px 15px;
+}
+audio:hover{
+    transform: scale(1,1.5);
+    transition: 3s;
+}

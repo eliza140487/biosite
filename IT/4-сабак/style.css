@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(161, 144, 161);
+}
+
+.block{
+    width:100px;
+    height: 100px;
+    border: 6px solid blue;
+    border-radius: 50%;
+   background-image: url(https://st.depositphotos.com/1491329/1413/i/600/depositphotos_14134376-stock-photo-aster-autumn-flowers-art-design.jpg);
+   background-position: 0% 12%;
+   background-size: cover;
+   background-position-x: 0%;
+   box-shadow: 0px 0px 15px 15px blueviolet;
+   transition: 2s;
+}
+
+.block:hover{
+    width:350px;
+    height: 350px;  
+    border-radius: 20%;
+    transform: rotate(360deg);
+    background-image: url(https://static8.tgstat.ru/channels/_0/26/2647150c2f9771a41145032b86b6c8a4.jpg);
+}
+.block2{
+    width:300px;
+    height: 300px;
+    border: 6px solid blue;
+    border-radius: 50%;
+   background-image: url(https://bipbap.ru/wp-content/uploads/2017/04/priroda_kartinki_foto_03.jpg);
+   background-position: 0% 12%;
+   background-size: cover;
+   background-position-x: 0%;
+   box-shadow: 0px 0px 15px 15px blueviolet;
+   transition: 2s;
+}
+.block2:hover{
+    width:350px;
+    height: 350px;  
+    border-radius: 10%;
+    transform: rotate(110deg);
+    background-image: url(https://w.forfun.com/fetch/13/13bdc6be06334e59bb4a77663e67eb88.jpeg);
+}

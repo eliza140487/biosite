@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+}
+
+.header {
+    width: auto;
+    height: 100px;
+    border: 2px  solid;
+    background-color: rgb(86, 212, 134);
+    
+}
+ul{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+li{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 2s;
+
+}
+
+li:hover{
+    cursor: pointer;
+    color: brown;
+    background-color: chartreuse;
+}
+.content-one {
+    width: auto;
+    height: 400px;
+    background-color: rgb(255, 145, 0);
+}
+
+iframe{
+    border: 8px; solid blue;
+}
+
+.content-two{
+    width: auto;
+    height: 400px;
+    background-color: blueviolet;
+}
+
+iframe{
+    border: 6px; solid red;
+}
+
+.content-3{
+    width: auto;
+    height: 600px;
+    background-color: burlywood;
+
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+}
+
+.title {
+font-family:  Tahoma,sans-serif;
+text-align: left;
+font-weight: 700;
+letter-spacing: -1px;
+text-transform: uppercase;
+color: red;
+}
+
+p{
+    text-indent: 20px;
+}
+
+.justify {
+    text-align: justify;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: capitalize;
+    color: firebrick;
+}
+
+ul{
+    list-style-type: square;
+    list-style: outside;
+    color: #000;
+    font-family:Tahoma,sans-serif;
+
+}
+
+ol{
+    list-style-type: decimal-leading-zero;
+    color: darkblue;
+    font-family: monospace;
+}
+
+.table {
+    border: 1px solid #000;
+    width: 50%;
+
+}
+.table th {
+text-align: left;
+}
